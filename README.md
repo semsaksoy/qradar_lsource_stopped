@@ -1,10 +1,10 @@
 # Qradar Log Source Stopped Alert
 
-This script will send an alert email automatically if log sources have been inactive for a given period of time.
+This script will automatically send an alert email if log sources have been inactive for a given period of time.
 
-Unlike the built-in rule engine, it is easy to match the recipient groups to the log source groups. The alert e-mail is also set to send an easily readable format and additional information.
+Unlike the built-in rule engine, it is easy to match the recipient groups to the log source groups. The alert e-mail is crafted to have an easily readable format and additional information.
 
-*It needs cron setup and doesn't depend on api versions because it is based on to Qradar database (postgres)*
+*It only needs a cron setup and doesn't depend on API versions because it accesses QRadar's database tables directly.*
 
 ![ss1](https://user-images.githubusercontent.com/1064270/54886371-70719c00-4e98-11e9-9662-fc8a7ad1d21a.png)
 
