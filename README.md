@@ -1,3 +1,8 @@
+Please checkout newer project
+https://github.com/semsaksoy/lssc
+
+
+
 # Qradar Log Source Stopped Alert
 
 This script will automatically send an alert email if log sources have been inactive for a given period of time.
